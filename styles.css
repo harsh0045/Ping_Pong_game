@@ -9,6 +9,10 @@ body{
     background-color:cadetblue;
     
 }
+h3{
+    text-align:center;
+    color:black;
+}
 #pong {
     position: relative;
     width: 50vw;
