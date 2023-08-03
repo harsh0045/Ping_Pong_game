@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    background-color:cadetblue;
+    
+}
+#pong {
+    position: relative;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: brown;
+  }
+  #box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48vw;
+    height: 48vh;
+    background-color:black;
+    border: 1px solid #000;
+  }
+  .paddle {
+    position: absolute;
+    width: 20%;
+    height: 10px;
+    background-color:violet;
+  }
+  #upperPaddle {
+    top: 0;
+    left: 250px;
+  }
+  #lowerPaddle {
+    bottom: 0;
+    left: 250px;
+  }
+  #ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color:orange;
+    border-radius: 50%;
+  }
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: cadetblue;
+  }
+  #highScore {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    color: #888;
+  }
